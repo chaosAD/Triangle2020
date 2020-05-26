@@ -22,8 +22,11 @@
 
 :environment:
 
+:module_generator:
+  :naming: bumpy
+
 :extension:
-  :executable: .out
+  :executable: .exe
 
 :paths:
   :test:
@@ -42,6 +45,7 @@
   :test:
     - *common_defines
     - TEST
+
   :test_preprocess:
     - *common_defines
     - TEST
